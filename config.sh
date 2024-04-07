@@ -176,6 +176,34 @@ CONFIG_PACKAGE_luci-app-adguardhome=y
 CONFIG_PACKAGE_luci-app-amlogic=y
 # CONFIG_PACKAGE_luci-app-arpbind is not set
 # CONFIG_PACKAGE_luci-app-ddns is not set
+CONFIG_PACKAGE_luci-app-acme=y
+CONFIG_PACKAGE_luci-app-appfilter=y
+CONFIG_PACKAGE_luci-app-autoreboot=y
+CONFIG_PACKAGE_luci-app-dnsfilter=y
+CONFIG_PACKAGE_luci-app-eqos-mtk=y
+CONFIG_PACKAGE_luci-app-fileassistant=y
+CONFIG_PACKAGE_luci-app-hd-idle=y
+CONFIG_PACKAGE_luci-app-lucky=y
+CONFIG_PACKAGE_luci-app-mtwifi-cfg=y
+CONFIG_PACKAGE_luci-app-mwan3=y
+CONFIG_PACKAGE_luci-app-nlbwmon=y
+CONFIG_PACKAGE_luci-app-npc=y
+CONFIG_PACKAGE_luci-app-openclash=y
+CONFIG_PACKAGE_luci-app-passwall2=y
+# CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_Shadowsocks_Rust_Client is not set
+# CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_SingBox is not set
+# CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_V2ray_Plugin is not set
+CONFIG_PACKAGE_luci-app-passwall2_Iptables_Transparent_Proxy=y
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Haproxy is not set
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ShadowsocksR_Libev_Client is not set
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Client is not set
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Server is not set
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Rust_Client is not set
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Simple_Obfs is not set
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan_Plus is not set
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray is not set
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray_Plugin is not set
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray is not set
 CONFIG_PACKAGE_luci-app-docker=y
 CONFIG_PACKAGE_luci-app-dockerman=y
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
@@ -187,9 +215,33 @@ CONFIG_PACKAGE_luci-app-dockerman=y
 # CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_Go is not set
 # CONFIG_PACKAGE_luci-app-upnp is not set
 # CONFIG_PACKAGE_luci-app-vsftpd is not set
+CONFIG_PACKAGE_luci-app-syncdial=y
+CONFIG_PACKAGE_luci-app-tailscale=y
+CONFIG_PACKAGE_luci-app-ttyd=y
+CONFIG_PACKAGE_luci-app-upnp=y
+CONFIG_PACKAGE_luci-app-vlmcsd=y
 CONFIG_PACKAGE_luci-i18n-amlogic-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-docker-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-dockerman-zh-cn=y
+CONFIG_PACKAGE_luci-app-wol=y
+CONFIG_PACKAGE_luci-i18n-acme-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-appfilter-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-autoreboot-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-dnsfilter-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-hd-idle-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-lucky-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-mwan3-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-nlbwmon-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-npc-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-passwall2-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-ramfree-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-tailscale-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-turboacc-mtk-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-upnp-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-vlmcsd-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-wol-zh-cn=y
+CONFIG_PACKAGE_luci-theme-material=y
 CONFIG_PACKAGE_luci-lib-docker=y
 CONFIG_PACKAGE_luci-proto-ipv6=y
 CONFIG_PACKAGE_luci-theme-opentomcat=y
