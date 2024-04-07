@@ -1,0 +1,19 @@
+
+config docker
+	option wan_mode '0'
+
+config globals 'globals'
+	option alt_config_file '/etc/docker/daemon.json'
+	option auto_start '1'
+	option log_level 'debug'
+	list hosts 'unix:///var/run/docker.sock'
+	list registry_mirrors 'https://hub-mirror.c.163.com'
+
+config dockerman 'dockerman'
+	option socket_path '/var/run/docker.sock'
+	option status_path '/tmp/.docker_action_status'
+	option debug 'false'
+	option debug_path '/tmp/.docker_debug'
+	option remote_endpoint '0'
+	list ac_allowed_interface 'eth0'
+
