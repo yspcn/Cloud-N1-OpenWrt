@@ -24,4 +24,4 @@ git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packag
 git clone https://github.com/kenzok8/small package/small
 git clone --depth=1 -b master https://github.com/Hyy2001X/AutoBuild-Packages package/AutoBuild-Packages
 git clone --depth=1 https://github.com/asvow/luci-app-tailscale package/luci-app-tailscale
-sed -i '/\/etc\/init\.d\/tailscale/d;/\/etc\/config\/tailscale/d;' feeds/packages/net/tailscale/Makefile
+
