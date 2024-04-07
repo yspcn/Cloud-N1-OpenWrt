@@ -88,6 +88,8 @@ jobs:
     - name: Install feeds
       run: |
         cd openwrt
+        rm -f feeds/packages/net/tailscale/Makefile
+        wget -P feeds/packages/net/tailscale/ https://github.com/openwrt/packages/raw/master/net/tailscale/Makefile
         sed -i '/\/etc\/init\.d\/tailscale/d;/\/etc\/config\/tailscale/d;' feeds/packages/net/tailscale/Makefile
         ./scripts/feeds install -a
 
