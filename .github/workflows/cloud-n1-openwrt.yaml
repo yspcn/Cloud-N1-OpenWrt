@@ -86,6 +86,7 @@ jobs:
     - name: Install feeds
       run: |
         cd openwrt
+        sed -i '/\/etc\/init\.d\/tailscale/d;/\/etc\/config\/tailscale/d;' feeds/packages/net/tailscale/Makefile
         ./scripts/feeds install -a
 
     - name: Load custom configuration
