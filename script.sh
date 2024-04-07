@@ -19,3 +19,8 @@ sed -i "s/bootstrap/$default_theme/g" feeds/luci/modules/luci-base/root/etc/conf
 git clone https://github.com/ophub/luci-app-amlogic.git  package-temp/luci-app-amlogic
 mv -f package-temp/luci-app-amlogic/luci-app-amlogic package/lean/
 rm -rf package-temp
+
+git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
+git clone https://github.com/kenzok8/small package/small
+git clone --depth=1 -b master https://github.com/Hyy2001X/AutoBuild-Packages package/AutoBuild-Packages
+git clone --depth=1 https://github.com/asvow/luci-app-tailscale package/luci-app-tailscale
