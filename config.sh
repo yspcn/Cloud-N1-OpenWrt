@@ -176,7 +176,6 @@ CONFIG_PACKAGE_luci-app-adguardhome=y
 CONFIG_PACKAGE_luci-app-amlogic=y
 # CONFIG_PACKAGE_luci-app-arpbind is not set
 # CONFIG_PACKAGE_luci-app-ddns is not set
-CONFIG_PACKAGE_luci-app-acme=y
 CONFIG_PACKAGE_luci-app-appfilter=y
 CONFIG_PACKAGE_luci-app-autoreboot=y
 CONFIG_PACKAGE_luci-app-dnsfilter=y
@@ -224,7 +223,6 @@ CONFIG_PACKAGE_luci-i18n-amlogic-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-docker-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-dockerman-zh-cn=y
 CONFIG_PACKAGE_luci-app-wol=y
-CONFIG_PACKAGE_luci-i18n-acme-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-appfilter-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-autoreboot-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-dnsfilter-zh-cn=y
